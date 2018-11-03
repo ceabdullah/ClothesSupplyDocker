@@ -9,3 +9,5 @@ clothessupply
 Clothes123_
 
 - ClothesSupplyWebCms fetch data from ClothesSupplyApi so to fecth data you may need to change ClothesSupplyApiUrl in appsetting.json with related url
+
+- Docker should be installed as windows container but it can be linux container also.
