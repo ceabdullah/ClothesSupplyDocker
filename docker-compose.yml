@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  clothessupplyapi:
+    image: ${DOCKER_REGISTRY}clothessupplyapi
+    build:
+      context: .
+      dockerfile: ClothesSupplyApi/Dockerfile
+
+  clothessupplywebcms:
+    image: ${DOCKER_REGISTRY}clothessupplywebcms
+    build:
+      context: .
+      dockerfile: ClothesSupplyWebCms/Dockerfile
+
