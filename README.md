@@ -5,6 +5,7 @@ Clothes123456_
 
 - Dbs are included in procect but i also deployed dbs to azure. Below are the credentials for dbs
 
+server : clothesdbs.database.windows.net
 clothessupply
 Clothes123_
 
