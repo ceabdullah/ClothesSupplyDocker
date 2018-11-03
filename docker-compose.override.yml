@@ -3,7 +3,7 @@ version: '3.4'
 services:
   clothessupplywebcms:
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=https://+:443;http://+:80
     ports:
       - "49294:80"
@@ -13,7 +13,7 @@ services:
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
   clothessupplyapi:
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=https://+:443;http://+:80
     ports:
       - "49289:80"
