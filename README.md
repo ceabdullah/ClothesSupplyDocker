@@ -11,3 +11,7 @@ Clothes123_
 - ClothesSupplyWebCms fetch data from ClothesSupplyApi so to fecth data you may need to change ClothesSupplyApiUrl in appsetting.json with related url
 
 - Docker should be installed as windows container but it can be linux container also.
+
+- Api Url : https://clothessupply-dev-as.azurewebsites.net (api documentation : https://clothessupply-dev-as.azurewebsites.net/swagger)
+
+- Cms Url : http://clothessupply-3-dev-as.azurewebsites.net
