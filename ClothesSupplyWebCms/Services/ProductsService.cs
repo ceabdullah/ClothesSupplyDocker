@@ -17,10 +17,10 @@ namespace ClothesSupplyWebCms.Services
 
         public ProductsService(IOptions<AppSettings> settings, HttpClient httpClient)
         {
-            //TODO : omit bypassing certificate error on prod environment
-            HttpClientHandler handler = new HttpClientHandler();
-            handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator;
-            httpClient = new HttpClient(handler);
+            ////TODO : omit bypassing certificate error on prod environment
+            //HttpClientHandler handler = new HttpClientHandler();
+            //handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator;
+            //httpClient = new HttpClient(handler);
 
 
             _settings = settings;
