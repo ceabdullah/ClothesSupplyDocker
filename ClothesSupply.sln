@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClothesSupplyWebCms", "Clot
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6DFBE234-E7F8-4558-8B39-549EC71535AA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dbs", "Dbs", "{1F3F550F-BCF6-4F0D-A1D4-04C87002641F}"
+	ProjectSection(SolutionItems) = preProject
+		Dbs\aspnet-ClothesSupplyWebCms.Bak = Dbs\aspnet-ClothesSupplyWebCms.Bak
+		Dbs\ProductCatalogDb.Bak = Dbs\ProductCatalogDb.Bak
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
